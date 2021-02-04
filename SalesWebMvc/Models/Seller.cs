@@ -34,7 +34,7 @@ namespace SalesWebMvc.Models
             Sales.Add(sr);
         }
 
-        public void REmoveSales(SalesRecord sr)
+        public void RemoveSales(SalesRecord sr)
         {
             Sales.Remove(sr);
         }
